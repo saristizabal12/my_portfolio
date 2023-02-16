@@ -2,10 +2,12 @@ html, body {
   font-family: 'Lato', sans-serif;
   /* background-color: #36454f; */
 }
+
+/* This section is for my profile image section's background color */
 .color-tempi{
   /* background-color: rgb(1, 8, 12); */
-  background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
-  ;
+  /* background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%); */
+  background-color: rgb(1, 8, 12);
 }
 h1 {
   font-size:3em;
@@ -78,7 +80,7 @@ transparent;
 .wave {
   background-color: rgb(1, 8, 12);
   /* background: linear-gradient(to left, #00c6ff, #328eff); */
-  background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+  /* background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%); */
   min-height: 350px;
   color: #fff;
   display: flex;
@@ -126,7 +128,7 @@ transparent;
   /* align-items: center; */
 }
 .education-container {
-  
+
   padding: 60px 0;
   width: auto;
   border: 10px solid rgb(36, 45, 57);
@@ -180,6 +182,14 @@ transparent;
   background-color: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
 }
 
+.container-color2 {
+  padding: 100px 0;
+  color: black;
+  padding: 60px 0;
+  width: auto;
+  border: 20px solid rgb(1, 8, 12);
+  border-radius: 1px;
+}
 .container-dark {
   /* background-color: #328eff; */
   background-color: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
@@ -201,7 +211,17 @@ transparent;
   /* color: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%); */
   font-size: 50px;
 }
+.company-logos{
+  padding: 60px 0;
+  width: auto;
+  border: 20px solid rgb(36, 45, 57);
+  border-radius: 1px;
+}
+.company-logos img{
+  justify-content: center;
+  margin: center;
 
+}
 .subtitle {
     font-weight: 200;
 }
