@@ -214,7 +214,8 @@ transparent;
 .company-logos{
   padding: 60px 0;
   width: auto;
-  border: 20px solid rgb(36, 45, 57);
+  /* border: 20px solid rgb(36, 45, 57); */
+  border: 20px solid rgb(1, 8, 12);
   border-radius: 1px;
 }
 .company-logos img{
