@@ -121,7 +121,7 @@ transparent;
   /* top: 10; */
   padding: 60px 0;
   width: auto;
-  border: 10px solid rgb(1, 8, 12);
+  /* border: 10px solid rgb(1, 8, 12); */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -130,11 +130,11 @@ transparent;
 .education-container {
 
   padding: 60px 0;
-  width: auto;
-  border: 10px solid rgb(36, 45, 57);
+  width: 100%;
+  border: 10px rgb(36, 45, 57);
   border-radius: 10px;
   /* padding: 50px; */
-  margin: 40px;
+  margin: 60px;
   font-weight: bold;
   /* background-color: rgb(1, 8, 12); */
   background-color: rgb(36, 45, 57);
@@ -144,6 +144,7 @@ transparent;
 .education-container h1{
   font-weight: bold;
   color: #fff;
+  /* justify-content: center; */
 }
 
 .education-item span{
@@ -181,13 +182,25 @@ transparent;
   /* background-color: #328eff; */
   background-color: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
 }
-
+.certifications{
+  padding: 60px 0;
+  width: auto;
+  /* border: 20px solid rgb(36, 45, 57); */
+  /* border: 60px solid rgb(1, 8, 12); */
+  border-radius: 1px;
+}
+.certifications img{
+  justify-content: center;
+  margin: center;
+  width: auto;
+  height: 300px;
+}
 .container-color2 {
   padding: 100px 0;
   color: black;
   padding: 60px 0;
   width: auto;
-  border: 20px solid rgb(1, 8, 12);
+  /* border: 20px solid rgb(1, 8, 12); */
   border-radius: 1px;
 }
 .container-dark {
@@ -212,10 +225,10 @@ transparent;
   font-size: 50px;
 }
 .company-logos{
-  padding: 60px 0;
+  padding: 70px 0;
   width: auto;
   /* border: 20px solid rgb(36, 45, 57); */
-  border: 20px solid rgb(1, 8, 12);
+  /* border: 60px solid rgb(1, 8, 12); */
   border-radius: 1px;
 }
 .company-logos img{
